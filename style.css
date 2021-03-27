@@ -43,8 +43,8 @@ align-content: center;
   align-items: center;
   flex-direction: column;
   background:url('./robot.gif');
-  background-size:75% ;
-  background-position: left center;
+  background-size:cover ;
+  background-position: center center;
   background-repeat: no-repeat;
 }
 
@@ -79,18 +79,18 @@ button:disabled {
 /* media query for tablet or smaller */
 @media screen and (max-width:1000px) {
   .container {
-
     background-size: cover;
-    background-position: right right;
+    background-position: center center;
+    margin-left: 15%;
   }
   button {
     box-shadow: 5px 5px 30px 20px rgba(0, 0, 0, 0.5);
+    
   }
   #Bubble{
     font-size: 18px;
   }
   #speechBubble{
     padding:10px;
-
   }
 }
