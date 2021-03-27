@@ -37,8 +37,18 @@ button {
   border-radius: 5px;
   box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.3);
 }
+
 button:hover {
   filter:brightness(95%)
+}
+
+button:active {
+  transform:scale(0.98)
+}
+
+button:disabled {
+  cursor: default;
+  filter:brightness(30%)
 }
 
 /* media query for tablet or smaller */
