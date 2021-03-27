@@ -10,6 +10,17 @@ body {
   background:#45badd
 
 }
+#speechBubble{
+  display: flex;
+  justify-content: center;
+align-content: center;
+  background-color: #252222;
+  border: 1px solid #110f0f;
+  border-radius: 5px;
+  width: auto;
+  text-align: center;
+  padding: 20px;
+}
 
 #Bubble{
   display: flex;
@@ -76,6 +87,10 @@ button:disabled {
     box-shadow: 5px 5px 30px 20px rgba(0, 0, 0, 0.5);
   }
   #Bubble{
-    font-size: 20px;
+    font-size: 18px;
+  }
+  #speechBubble{
+    padding:10px;
+
   }
 }
