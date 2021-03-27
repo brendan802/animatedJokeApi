@@ -17,9 +17,11 @@ body {
   align-items: center;
   font-size: 35px;
   font-family:'Poppins', sans-serif; 
+  margin-bottom: 0%;
   margin-top: 5%;
   margin-left: 5%;
   margin-right: 5%;
+  color:#fff;
 }
 
 .container{
@@ -30,7 +32,7 @@ body {
   align-items: center;
   flex-direction: column;
   background:url('./robot.gif');
-  background-size:25cm ;
+  background-size:75% ;
   background-position: left center;
   background-repeat: no-repeat;
 }
@@ -38,6 +40,7 @@ body {
 button {
   cursor: pointer;
   outline:none;
+  margin-bottom: 3%;
   width:200px;
   height:50px;
   font-family: 'Poppins', sans-serif;
@@ -65,10 +68,14 @@ button:disabled {
 /* media query for tablet or smaller */
 @media screen and (max-width:1000px) {
   .container {
+
     background-size: cover;
-    background-position: center center;
+    background-position: right right;
   }
   button {
     box-shadow: 5px 5px 30px 20px rgba(0, 0, 0, 0.5);
+  }
+  #Bubble{
+    font-size: 20px;
   }
 }
