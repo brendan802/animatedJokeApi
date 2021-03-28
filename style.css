@@ -1,16 +1,15 @@
 /* ROBOT.GIF from Giphy - https://giphy.com/gifs/robot-cinema-4d-eyedesyn-3o7abtn7DuREEpsyWY */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 html {
   box-sizing: border-box;
 }
 
 body {
-  margin:0;
-  background:#45badd
-
+  margin: 0;
+  background: #45badd;
 }
-#speechBubble{
+#speechBubble {
   display: flex;
   justify-content: center;
   align-content: center;
@@ -19,77 +18,76 @@ body {
   border: 1px solid #110f0f;
   border-radius: 50px;
   padding: 10px;
-  margin:auto;
+  margin: auto;
   margin-left: 5%;
   margin-right: 5%;
   margin-top: 5%;
 }
 
-#Bubble{
-  display: flex;  
+#Bubble {
+  display: flex;
   justify-content: center;
   align-items: center;
   font-size: 35px;
-  font-family:'Poppins', sans-serif; 
-  color:#fff;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
 }
 
-.container{
-  height:100vh;
+.container {
+  margin: 0px 0px 0px 0px;
+  height: 100vh;
   width: 100vw;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background:url('./robot.gif');
-  background-size:cover ;
+  background: url("./robot.gif");
+  background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
 
 button {
   cursor: pointer;
-  outline:none;
+  outline: none;
   margin-bottom: 3%;
-  width:200px;
-  height:50px;
-  font-family: 'Poppins', sans-serif;
+  width: 200px;
+  height: 50px;
+  font-family: "Poppins", sans-serif;
   font-size: 20px;
-  color:#fff;
-  background:#ff3482;
+  color: #fff;
+  background: #ff3482;
   border: none;
   border-radius: 5px;
   box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.3);
 }
 
 button:hover {
-  filter:brightness(95%)
+  filter: brightness(95%);
 }
 
 button:active {
-  transform:scale(0.98)
+  transform: scale(0.98);
 }
 
 button:disabled {
   cursor: default;
-  filter:brightness(30%)
+  filter: brightness(30%);
 }
 
 /* media query for tablet or smaller */
-@media screen and (max-width:1000px) {
+@media screen and (max-width: 1000px) {
   .container {
     background-size: cover;
     background-position: center center;
-    margin-left: 15%;
   }
   button {
     box-shadow: 5px 5px 30px 20px rgba(0, 0, 0, 0.5);
-    
   }
-  #Bubble{
+  #Bubble {
     font-size: 18px;
   }
-  #speechBubble{
-    padding:10px;
+  #speechBubble {
+    padding: 10px;
   }
 }
