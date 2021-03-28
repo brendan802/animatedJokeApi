@@ -14,8 +14,8 @@ function tellMe(joke) {
   VoiceRSS.speech({
     key: "ad135f4b7ed54b8b8ab092d89af3a0a6",
     src: joke,
-    hl: "en-us",
-    v: "Linda",
+    hl: "en-gb",
+    v: "Alice",
     r: 0,
     c: "mp3",
     f: "44khz_16bit_stereo",

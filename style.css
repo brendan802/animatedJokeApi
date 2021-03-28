@@ -13,25 +13,24 @@ body {
 #speechBubble{
   display: flex;
   justify-content: center;
-align-content: center;
-  background-color: #252222;
-  border: 1px solid #110f0f;
-  border-radius: 5px;
-  width: auto;
+  align-content: center;
   text-align: center;
-  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 1px solid #110f0f;
+  border-radius: 50px;
+  padding: 10px;
+  margin:auto;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
 }
 
 #Bubble{
-  display: flex;
+  display: flex;  
   justify-content: center;
   align-items: center;
   font-size: 35px;
   font-family:'Poppins', sans-serif; 
-  margin-bottom: 0%;
-  margin-top: 5%;
-  margin-left: 5%;
-  margin-right: 5%;
   color:#fff;
 }
 
